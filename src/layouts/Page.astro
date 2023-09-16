@@ -1,0 +1,33 @@
+--- 
+import type { MDXLayoutProps } from "astro";
+ 
+const {
+    frontmatter: { title, category },
+    url,
+    headings,
+} = Astro.props;
+---
+ 
+<div class="container max-w-2xl mx-auto leading-6 p-6">
+    
+    <article
+    aria-label="Post"
+    class="space-y-4"
+>
+    <slot />
+</article>
+</div>
+<style is:global>
+    .astro-code  {
+        @apply p-2;
+    }
+
+    article a {
+        @apply text-cyan-500 ;
+    }
+
+    ol,ul {
+        @apply space-y-3;
+    }
+    
+</style>

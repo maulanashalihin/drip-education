@@ -1,0 +1,67 @@
+---
+layout: ../../layouts/Page.astro
+title: Introduction
+category: 1. Welcome
+---
+import Next from "../../components/Next.astro"
+import Prev from "../../components/Prev.astro"
+
+<img src="https://adminlte.io/wp-content/uploads/2022/02/tailwindcss-templates.png" alt="VS Code" />
+
+**Mengenal Tailwind CSS dan Integrasi dengan Astro**
+
+Dalam Bab ini, kita akan menjelaskan lebih detail tentang apa itu **Tailwind CSS** dan bagaimana Anda dapat mengintegrasikannya dengan proyek Astro Anda untuk merancang tampilan situs web dengan mudah.
+
+### Apa itu Tailwind CSS?
+
+**Tailwind CSS** adalah kerangka kerja CSS yang dirancang untuk memudahkan proses desain dan pengembangan situs web. Dengan Tailwind CSS, Anda tidak perlu menulis CSS kustom Anda sendiri, tetapi cukup menggunakan berbagai kelas CSS yang telah ditentukan untuk merancang tampilan situs web Anda.
+
+Beberapa fitur utama Tailwind CSS adalah:
+
+1. **Utility-First:** Tailwind CSS mengutamakan penggunaan kelas-kelas utilitas yang langsung dapat diterapkan pada elemen HTML. Misalnya, Anda dapat menambahkan kelas `bg-blue-500` untuk memberikan latar belakang biru pada elemen.
+
+2. **Ekstensibel:** Anda dapat menyesuaikan dan menambahkan kelas-kelas kustom sesuai kebutuhan proyek Anda.
+
+3. **Konfigurasi:** Tailwind CSS memungkinkan Anda mengkonfigurasi berbagai aspek desain, seperti warna, tipografi, dan lainnya.
+
+4. **Responsif:** Anda dapat dengan mudah membuat desain responsif dengan menggunakan kelas-kelas responsif seperti `sm:`, `md:`, dan `lg:`.
+
+### Integrasi Tailwind CSS dengan Astro
+
+Astro adalah framework pengembangan web yang memungkinkan Anda untuk menggabungkan Tailwind CSS dengan mudah. Berikut adalah langkah-langkah integrasi Tailwind CSS dengan proyek Astro:
+
+#### **1. Inisialisasi Proyek Astro**
+
+Pastikan Anda sudah mengikuti langkah-langkah dalam Bab Astro Framework. Jika belum, buat project Astro terlebih dahulu dan masuk ke direktori project.
+
+#### **2. Instalasi Tailwind CSS**
+
+Buka terminal Anda, masuk ke direktori proyek Astro, dan jalankan perintah berikut:
+
+```bash
+npx astro add tailwind
+```
+
+#### **3. Menggunakan Tailwind CSS**
+
+Setelah instalasi selesai, Anda dapat mulai menggunakan kelas-kelas Tailwind CSS dalam komponen-komponen Astro Anda. Contoh penggunaan kelas Tailwind CSS:
+
+```html
+<div class="bg-blue-500 p-4">
+  <p class="text-white text-lg">Ini adalah teks dengan latar belakang biru.</p>
+</div>
+```
+
+#### **4. Membangun dan Jalankan Proyek**
+
+Terakhir, Jalankan project anda dengan:
+
+```bash
+npm run dev
+```
+
+Sekarang Anda telah berhasil mengintegrasikan Tailwind CSS ke dalam proyek Astro Anda. Anda dapat dengan mudah merancang tampilan situs web Anda dengan menggunakan kelas-kelas Tailwind CSS yang telah ditentukan. Terus eksplorasi lebih lanjut dan kembangkan proyek Anda dengan desain yang menarik!
+<div class="flex gap-3 w-full ">
+<Prev title="Mengenal HTML" href="/1-hari-jadi-programmer/mengenal-html" />
+<Next title="Tailwind Class" href="/1-hari-jadi-programmer/tailwind-class" />
+</div>
