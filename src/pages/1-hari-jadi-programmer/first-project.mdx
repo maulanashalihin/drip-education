@@ -1,0 +1,39 @@
+---
+layout: ../../layouts/Page.astro
+title: Introduction
+category: 1. Welcome
+---
+import Next from "../../components/Next.astro"
+import Prev from "../../components/Prev.astro"
+ 
+
+**First Project : Landing Page**
+
+Pada Bab ini, kita akan belajar lebih detail tentang apa itu **Tailwind CSS** dan bagaimana Anda dapat mempraktikkannya dalam membuat Website.
+
+<ol class="list-decimal">
+  <li>Hero</li>
+  Hero dalam sebuah website adalah bagian teratas halaman utama yang menarik perhatian pengunjung dengan gambar besar, judul, dan tindakan yang diinginkan, seperti tombol "Daftar" atau "Beli." Ini memberikan pengenalan singkat tentang situs web atau produknya.
+  
+  buat section dengan background image dan text diatasnya. Sertakan juga tombol CTA (Call To Action) yang mengarah ke halaman lain.
+  <li>Key Benefit</li>
+  Buat section benefit dengan **grid dengan 3 kolom** (grid lg:grid-cols-3) ketika dibuka di desktop dan 1 kolom ketika dibuka di mobile.
+
+  tambahkan icon dari https://heroicons.com/ dan tambahkan text di bawahnya.
+    <li>Testimoni</li>
+  Gunakan flexbox (.flex .justify-center) untuk membuat element rata di tengah
+    <li>Feature</li>
+    Buat section feature dengan **grid dengan 3 kolom** (grid lg:grid-cols-3) ketika dibuka di desktop dan 1 kolom ketika dibuka di mobile.
+
+     <li>Side by Side Image dan text</li>
+    Gunakan grid dengan **2 kolom** (grid lg:grid-cols-2) ketika halaman desktop dan 1 kolom pada mobile.
+      <li>Call to Action</li>
+    Gunakan Flex justify-center untuk membuat element rata tengah. Gunakan juga items-center untuk membuat element rata tengah secara vertikal.
+      <li>Footer</li>
+</ol>
+
+<img src="/images/lp-wireframe.png" alt="VS Code" />
+
+<div class="flex gap-3 w-full ">
+<Prev title="Tailwind Cheatsheet" href="/1-hari-jadi-programmer/tailwind-cheatsheet" /> 
+</div>
